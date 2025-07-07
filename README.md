@@ -1,10 +1,30 @@
 
-# Windows Server Active Directory Homelab
+I'm developing the essential skills that make SOC analysts effective in protecting organizations through intensive hands-on practice and real-world scenarios:
 
-## Overview
-This homelab project demonstrates enterprise Windows Server administration skills through hands-on implementation of Active Directory Domain Services and related technologies.
-Built using VirtualBox virtualization, this environment simulates a small business network infrastructure for learning and testing purposes.
+**Security Monitoring & Analysis
 
-The lab covers core domain administration concepts including user/group management, Group Policy implementation, file services with proper permissions, security policies, and service account management. This project serves as both a learning platform for Windows Server technologies and a portfolio demonstration of practical IT administration skills.
+SIEM operations (Splunk, ELK Stack, QRadar)
+Log analysis and correlation
+Threat detection and hunting
+Security event triage and escalation
 
-**Primary Technologies:** Windows Server, Active Directory, Group Policy, File Services, NTFS/Share Permissions, PowerShell
+**Incident Response
+
+IR methodology and playbooks
+Malware analysis and containment
+Evidence collection and preservation
+Post-incident reporting and remediation
+
+**Digital Forensics
+
+Windows/Linux system forensics
+Network traffic analysis (Wireshark, TCPDump)
+Memory analysis (Volatility)
+Timeline reconstruction
+
+**Technical Proficiency
+
+Linux/Windows command line expertise
+Network protocols and security concepts
+Scripting for automation
+Security tool integration
