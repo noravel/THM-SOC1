@@ -1,0 +1,17 @@
+# Pyramid of Pain
+
+- Hash Values:
+- IP address: is used to identify any device connected to a network.
+- Domain Names (simple):
+    - is like mapping an ip address to the name that easy for human to remember.
+    
+    - Punny code? is a way of converting words that cannot be written in ASCII, into a Unicode ASCII encoding.
+    - To detect malicious domains, proxy logs or web server logs can be used. what is proxy server? a router that provides a gateway between users and the internet ⇒ prevent cyber attackers from entering a private network.
+    - Attackers hide the malicious domains under URL shorteners.
+    - Domain name request : DNS request
+- Host Artifacts (Annoying):
+    
+    
+- Network Artifacts (Annoying):
+- Tools (Challenging):
+- TTPs (Tactics, Techniques, and Procedures)
