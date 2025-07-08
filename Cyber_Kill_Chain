@@ -1,0 +1,31 @@
+
+![image.png](attachment:4333b311-1066-4f2a-ac7a-8bc944a751a5:image.png)
+
+1. Reconnaissance
+    - reconnaissance is discovering and collecting information on the system  and the victim.
+    - Email harvesting: is the process of obtaining email addresses from public, paid or free. An attacker can use email-address for phishing attack.
+    - **OSINT**: Social media, LinkedIn, company websites
+    - **Technical recon**: Port scanning, DNS enumeration, subdomain discovery
+    - **Physical recon**: Dumpster diving, building layouts
+2. Weaponization
+    - Attackers create or acquire malware such as custom backdoors, exploits, combination of exploits and payloads.
+3. Delivery
+    - Choose the method for transmitting the payload or the malware (phishing email, distributing infected usb drives, watering hole attack)
+4. Exploitation
+    - Attacker needs to exploit the vulnerability to gain access to the system. After gaining access to the system, the malicious actor could exploit software,system, to escalate the privileges or move laterally through the network.
+    - **Initial access only**: Executing the payload delivered in step 3
+    - **Examples**: Buffer overflow, SQL injection, unpatched software vulnerabilities
+    - The goal is just to get that first foothold
+5. Installation
+    - Install a persistent backdoor. A persistent backdoor will let the attacker access the system he compromised in the past.
+        - Install a webshell: the attacker used to maintain access to the compromised system.
+        - install a backdoor on the victim’s machine
+        - create or modifying windows services.
+        - timestomping technique: is used to avoid detection by changing the file’s timestamp.
+6. Command&Control
+    - The attacker can remotely control and manipulate the victim’s system through C2 channel.
+    - The compromised endpoint would communicate with an external server set up by an attacker to establish a command and control channel. ⇒ attacker can control the victim’s machine
+    - **Protocols used**: HTTP/HTTPS, DNS, custom protocols
+    - **Beaconing**: Regular check-ins with C2 server
+7. Actions on Objectives 
+    - Attacker achieve his objectives: exfiltration, using compromised system, system destruction (wiping, ransomware), etc.
