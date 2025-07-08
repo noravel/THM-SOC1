@@ -1,0 +1,35 @@
+# Unified Kill Chain (Extension of Cyber Kill Chain)
+
+## Key Differences from Cyber Kill Chain:
+
+- Adds more granular phases (18 vs 7 phases)
+- Better addresses modern attack patterns
+- Includes more feedback loops
+
+**3 Main Phase:**
+
+- Phase: In (Initial Foothold)
+    - Reconnaissance : gather information relating to target
+    - Weaponization: setting up the necessary infrastructure to perform the attack.
+    - Social Engineering: techniques that an adversary can employ to manipulate employees to perform actions that will aid in the adversaries attack.
+    - Exploitation: take advantage of weaknesses or vulnerabilities present in a system.
+    - Persistence: maintain access to a system they have gained an initial foothold on.
+    - Defense Evasion: understand the techniques an adversary uses to evade defensive measures put in place in the system.
+    - Command & Control: combine the efforts an adversary made during the “weaponization” stage of the UKC to establish communications b/w the adversary and target system.
+    - Pivoting: reach other systems within a network.
+- Phase: Through (Network Propagation)
+    - Discovery: uncover information about the system and the network it is connected to.
+    - Privilege Escalation: Gain more prominent permissions within the pivot system.
+    - Execution: deploy malicious code using the pivot system as the host
+    - Credential Access: Steal credentials
+    - Lateral Movement: seek to move through the network and jump onto other target system.
+- Phase: Out (Action on Objectives)
+    - Collection: gather all the data of interest.
+    - Exfiltration: steal data by using encryption and compression to avoid detection.
+    - Impact: manipulate, interrupt or destroy assets
+    - Objectives: seek to achieve their goals with all the power and access.
+
+## When to Use:
+
+- Unified: More detailed analysis, modern attacks
+- Cyber: Simple communication, traditional attacks
