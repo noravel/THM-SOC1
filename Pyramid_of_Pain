@@ -1,17 +1,40 @@
 # Pyramid of Pain
 
-- Hash Values:
-- IP address: is used to identify any device connected to a network.
-- Domain Names (simple):
-    - is like mapping an ip address to the name that easy for human to remember.
-    
-    - Punny code? is a way of converting words that cannot be written in ASCII, into a Unicode ASCII encoding.
-    - To detect malicious domains, proxy logs or web server logs can be used. what is proxy server? a router that provides a gateway between users and the internet ⇒ prevent cyber attackers from entering a private network.
-    - Attackers hide the malicious domains under URL shorteners.
-    - Domain name request : DNS request
+![alt text](~/Desktop/pyramid.jpg)
+
+The higher up the pyramid, the more pain it causes attackers to change their approach.
+
+- Hash Values (Trivial): 
+    + Hash values are used for malware identification. Each malware file has a unique has fingerprint (MD5, SHA1,SHA256).
+    + Security tools can quickly block known malicous files by comparing their hashes against databases of known bad files.
+    + Attackers can bypass this by making changes to their malwares => completely change the hash. 
+
+- IP address (Easy): 
+    + IP address is used to identify any device connected to a network.
+    + IP address is considered "easy" because attackers can quickly change them by renting new servers, or use different infrastructure.
+    + IP address can be valuable for immediate blocking and understand attack patterns. 
+
+- Domain Names (Simple):
+    + Domain name is like mapping an ip address to the name that easy for human to remember.
+    + Punny code? is a way of converting words that cannot be written in ASCII, into a Unicode ASCII encoding.
+    + To detect malicious domains, proxy logs or web server logs can be used. 
+    + what is proxy server? a router that provides a gateway between users and the internet ⇒ prevent cyber attackers from entering a private network.
+    + Attackers hide the malicious domains under URL shorteners. => make it harder for users to sopy malicious domain
+    + Domain name request: DNS request
 - Host Artifacts (Annoying):
-    
+    + Host Artifacts are traces left on the infected computer include registry keys created or modified, 
+    file dropped in specific folders, services started, log entries. 
+    + These are "annoying" because they're harder for attackers to change
     
 - Network Artifacts (Annoying):
+    + Network Artifacts are patterns in network traffic that indicate malicious activity including
+    unsual port usage or protocols, C2 patterns 
+    + These require more effort for attackers to modify since they need to change how their malware communicates. 
+
 - Tools (Challenging):
-- TTPs (Tactics, Techniques, and Procedures)
+    + These are software/frameworks attackers use such as Metasploit, RATs
+    challenging => developing new tools require time and expertise
+- TTPs (Tactics, Techniques, and Procedures):
+    + TTPs are the methods and behaviors of attacks
+
+
