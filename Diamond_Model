@@ -1,0 +1,113 @@
+## Core Diamond Elements (Traditional)
+
+### 1. Adversary
+
+- **Primary Actor**: Individual or group conducting the intrusion
+- **Adversary Customer**: Entity receiving benefits from the intrusion
+    - May be the same as primary actor (self-benefit)
+    - Could be nation-state, criminal organization, competitor
+    - Payment/benefit relationship with primary actor
+
+### 2. Victim
+
+- **Victim Persona**: Human targets
+    - Executives, IT administrators, end users
+    - Social engineering targets
+    - Insider threats (unwitting or complicit)
+- **Victim Assets**: Technical targets
+    - Hardware: Servers, workstations, mobile devices, IoT
+    - Software: Applications, databases, operating systems
+    - Data: Intellectual property, credentials, financial records
+
+### 3. Capabilities
+
+- **Technical Skills**: Programming, exploit development, social engineering
+- **Operational Skills**: Reconnaissance, persistence, evasion
+- **Tools Proficiency**: Ability to use specific malware, frameworks, utilities
+- **Knowledge Domains**: Understanding of target environment, protocols, vulnerabilities
+
+### 4. Infrastructure
+
+- **Type 1 (Adversary-Owned)**
+    - Command & Control servers
+    - Domain registrations
+    - Hosting services
+    - Communication channels
+- **Type 2 (Intermediary/Compromised)**
+    - Compromised legitimate websites
+    - Hijacked domains
+    - Compromised third-party services
+    - Botnet resources
+
+## Contextual Elements
+
+### 5. Timestamp
+
+- **Attack Timeline**: Date and time of activities
+- **Dwell Time**: Duration between compromise and detection
+- **Campaign Duration**: Start to finish of operation
+- **TTL (Time-to-Live)**: Expected operational window
+
+### 6. Phase (Cyber Kill Chain)
+
+- **Reconnaissance**: Target identification and information gathering
+- **Weaponization**: Exploit and payload development
+- **Delivery**: Transmission of weapon to target
+- **Exploitation**: Triggering of exploit
+- **Installation**: Malware installation on target system
+- **Command & Control**: Establishing persistent communication
+- **Actions on Objectives**: Data exfiltration, lateral movement, impact
+
+### 7. Direction
+
+- **Host-Based Events**: Activities occurring on individual systems
+    - File system modifications
+    - Registry changes
+    - Process execution
+    - Local privilege escalation
+- **Network-Based Events**: Activities involving network communication
+    - Traffic analysis
+    - Protocol anomalies
+    - Lateral movement
+    - Data exfiltration patterns
+
+## Resource Elements
+
+### 8. Adversary Arsenal
+
+- **Exploit Inventory**: Zero-days, known vulnerabilities, exploit kits
+- **Malware Collection**: Custom tools, off-the-shelf malware, living-off-the-land binaries
+- **Social Engineering Assets**: Personas, pretext scenarios, credential databases
+- **Infrastructure Resources**: Servers, domains, certificates, proxies
+
+### 9. Methodology
+
+- **Attack Framework**: Systematic approach to conducting operations
+    - MITRE ATT&CK techniques
+    - APT-specific playbooks
+    - Criminal organization procedures
+- **Operational Security**: Methods to avoid detection and attribution
+- **Quality Assurance**: Testing and validation procedures for tools/techniques
+
+### 10. Resources (Enabling Factors)
+
+- **Financial**: Funding for operations, infrastructure, personnel
+- **Human**: Team size, skill diversity, organizational structure
+- **Technological**: Computing resources, development environments, testing labs
+- **Informational**: Intelligence gathering, target research, vulnerability databases
+- **Temporal**: Time available for operation planning and execution
+- **Facilities**: Physical locations, secure communications, operational security
+
+## Outcome Elements
+
+### 11. Result
+
+- **Primary Objectives Achieved**
+    - Data exfiltration success/failure
+    - System compromise level
+    - Persistence establishment
+- **Secondary Effects**
+    - Reputation damage
+    - Financial impact
+    - Operational disruption
+    - Regulatory consequences
