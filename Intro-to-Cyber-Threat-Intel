@@ -1,0 +1,7 @@
+Cyber Threat Intel (CTI) can be defined as evidence-based knowledge about adversaries including their indicators, tactics, motivations, and actionable advice against them.
+
+Data: discrete indicators associated with IP addresses, URLs, or hashes. 
+
+Information: A combination of multiple data points
+
+Intelligence: the correlation of data and information to extract patterns of actions based on contextual analysis. 
