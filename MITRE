@@ -6,3 +6,22 @@ TTP is an acronym for  Tactics, Techniques, and Procedures
 + The  Technique  is how the adversary achieves the goal or objective.
 + The  Procedure  is how the technique is executed.
 
+**MITRE ATT&CK** is a framework that maps out how attackers actually operate - it's 
+like a playbook of real-world hacking techniques.
+
+# Tacticss (The "Why")
+The goals an attacker wants to achieve:
++ Initial Access - Getting into the system
++ Execution - Running malicious code
++ Persistence - Stay hidden in the system
++ Priviledge Escalation - Getting higher permissions
++ Defense Evasion - Avoiding detection
++ Command & Control - Communicating with their servers 
++ Exfiltration - Stealing data
+
+# Techniques (The "How")
++ The specific methods used to achieve each tactic:
+    + Under "Intial Access" -> Phishing email
+
+# Procedures (The "What")
+The exact implementation by specific threat groups
